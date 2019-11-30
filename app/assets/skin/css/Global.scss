@@ -1,0 +1,45 @@
+.layerMain{
+    flex-direction:column;
+    flex: 1;
+    overflow: hidden;
+    .navTop{
+        height: 60px;
+        background: #141414;
+        flex-direction: row;
+        padding: 10px 20px;
+        h1{
+            width: 120px;
+            height: 40px;
+            color: #fff;
+            font-size: 24px;
+            font-weight:bold;
+            align-items: center;
+            justify-content: center;
+        }
+        ul{
+         
+            flex: 1;
+            flex-direction:row;
+            align-items: center;
+            justify-items: end;
+            justify-content: flex-end;
+            li{
+                color: #fff;
+            }
+        }
+    }
+    .contentBody{
+        flex-direction: row;
+        flex: 1;
+        height: 0;
+        background: #eee;
+        .contentMain{
+            flex: 1;
+            margin: 20px;
+            margin-left: 10px;
+            background: #fff;
+            overflow: hidden;
+        }
+    }
+}
+

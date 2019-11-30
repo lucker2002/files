@@ -1,0 +1,50 @@
+{
+  "name": "sysui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node server.js",
+    "build": "cross-env NODE_ENV=development webpack --env.prod --progress --display-error-details --colors"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-plugin-webpack-alias": "^2.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^5.0.5",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.7.2",
+    "react-hot-loader": "^4.3.3",
+    "react-transform-hmr": "^1.0.4",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "css-loader": "^3.2.0"
+  },
+  "dependencies": {
+    "alt": "^0.18.6",
+    "alt-container": "^1.1.1",
+    "alt-react": "git+https://github.com/bitshares/react.git",
+    "lodash": "^4.17.15",
+    "prop-types": "^15.7.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^5.1.2"
+  },
+  "author": "zksy",
+  "license": "ISC"
+}
